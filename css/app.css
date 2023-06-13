@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000;
+}
+
+.btn {
+  padding: 1rem;
+  margin: 0 20rem;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.container-images .slider {
+  opacity: 0;
+  position: absolute;
+}
+.container-images .on {
+  opacity: 1;
+}
+.container .btn i {
+  font-size: 2rem;
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=app.css.map */

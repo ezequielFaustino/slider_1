@@ -1,0 +1,27 @@
+@use 'reset'
+@use 'buttons'
+
+.container 
+  display: flex
+  align-items: center
+  justify-content: center
+  min-height: 100vh
+
+  &-images
+    display: flex
+    align-items: center
+    justify-content: center
+    position: relative
+  
+    .slider
+      opacity: 0
+      position: absolute
+    
+    .on
+      opacity: 1
+
+  .btn
+    i
+      font-size: 2rem
+      pointer-events: none
+
